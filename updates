@@ -1,0 +1,25 @@
+
+backend/utils/calculations.js
+backend/controllers/claimController.js
+backend/controllers/policyController.js
+backend/utils/validators.js
+backend/models/Claim.js
+backend/models/Policy.js
+
+frontend/src/pages/Dashboard.js
+frontend/src/pages/CreatePolicy.js
+frontend/src/pages/CreateClaim.js
+frontend/src/pages/Claims.js
+
+1  backend/utils/calculations.js  ✅ done
+
+2  backend/utils/validators.js
+3  backend/models/Policy.js
+4  backend/models/Claim.js
+5  backend/controllers/policyController.js
+6  backend/controllers/claimController.js
+
+7  frontend/src/pages/CreatePolicy.js
+8  frontend/src/pages/CreateClaim.js
+9  frontend/src/pages/Claims.js
+10 frontend/src/pages/Dashboard.js

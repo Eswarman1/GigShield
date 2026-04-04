@@ -1,0 +1,83 @@
+/* Global App Styles */
+.App {
+  min-height: 100vh;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button,
+a {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Loading state */
+.loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #667eea;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Utility classes */
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: #999;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
